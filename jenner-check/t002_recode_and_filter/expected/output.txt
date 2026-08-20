@@ -1,0 +1,18 @@
+                                                  Nike Dataset Cleaned
+
+
+  Obs  customer_rating   customer_feedback  customer_age  arrival_days_int  GenderCode  free_gift_bool  discount_bool
+    1  5                love_the_free_gift            34                17           0               1              1
+    2  5                good_delivery                 40                 5           1               0              0
+    3  5                love_the_free_gift            35                10           0               1              0
+    4  5                love_the_free_gift            34                14           1               1              0
+    5  5                love_the_discount             44                10           1               1              1
+    6  5                love_the_discount             33                 7           1               0              1
+    7  5                love_the_discount             29                 5           0               1              1
+    8  2                item_defect                   31                 7           0               0              0
+    9  5                good_delivery                 28                 7           0               1              0
+   10  2                slow_delivery                 38                20           0               1              0
+   11  1                item_defect                   39                 7           1               0              0
+   12  2                item_defect                   42                 5           0               0              0
+   13  1                item_defect                   33                 6           1               0              0
+

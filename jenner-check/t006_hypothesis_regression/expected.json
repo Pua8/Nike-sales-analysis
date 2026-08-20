@@ -1,0 +1,15 @@
+{
+  "_captured_at": "2026-08-20T08:24:59Z",
+  "_captured_run_id": "r_3e335a6ccb834fa6ba09a2de9cff321f",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Wrote nikeDatasetCleaned (20 rows, 2 columns).",
+    "NOTE: PROC REG: processed 1 job(s) in batch",
+    "NOTE: PROC REG ODS Graphics generated.",
+    "NOTE: Table fast_arrival created.",
+    "NOTE: PROC TTEST ODS Graphics generated."
+  ],
+  "log_does_not_contain": ["ERROR:", "[JENNER-ERROR"],
+  "diagnostics": {"parse_warnings": [], "runtime_warnings": []}
+}

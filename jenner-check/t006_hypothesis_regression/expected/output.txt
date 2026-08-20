@@ -1,0 +1,53 @@
+                       Hypothesis 2: Relationship between Arrival Days and Customer Satisfaction
+
+                                                   The REG Procedure                                                    
+                                                     Model: MODEL1                                                      
+                                       Dependent Variable: customer_satisfaction                                        
+
+Source                 DF  Sum of Squares  Mean Square   F Value    Pr > F
+---------------  --------  --------------  -----------  --------  --------
+Model                   1         0.01726      0.01726      0.06    0.8047
+Error                  18         4.93274      0.27404                    
+Corrected Total        19         4.95000                                 
+
+Root MSE           0.52349    R-Square            0.0035
+Dependent Mean       0.55000    Adj R-Sq           -0.0519
+Coeff Var         95.17987
+
+                          Parameter Estimates                           
+
+Variable                DF  Estimate  Standard Error   t Value  Pr > |t|
+----------------  --------  --------  --------------  --------  --------
+Intercept                1   0.61269         0.27584      2.22    0.0394
+arrival_days_int         1  -0.00606         0.02413     -0.25    0.8047
+
+                       Hypothesis 2: Relationship between Arrival Days and Customer Satisfaction
+
+                                                  The MEANS Procedure
+
+ Variable                        Mean
+ ------------------------------------
+ customer_satisfaction      0.5000000
+ ------------------------------------
+
+                       Hypothesis 2: Relationship between Arrival Days and Customer Satisfaction
+
+                       Hypothesis 2: Relationship between Arrival Days and Customer Satisfaction
+
+                   The TTEST Procedure                    
+             Variable:  customer_satisfaction             
+
+       N      Mean   Std Dev   Std Err   Minimum   Maximum
+--------  --------  --------  --------  --------  --------
+      14    0.5714    0.5136    0.1373    0.0000    1.0000
+
+Lower CL Mean      Mean  Upper CL Mean  Lower CL Std Dev   Std Dev  Upper CL Std Dev
+-------------  --------  -------------  ----------------  --------  ----------------
+       0.2749    0.5714         0.8679            0.3723    0.5136            0.8274
+
+       H0: Mean = 0.3       
+
+      DF   t Value  Pr > |t|
+--------  --------  --------
+      13      1.98    0.0696
+

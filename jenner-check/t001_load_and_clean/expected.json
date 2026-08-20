@@ -1,0 +1,15 @@
+{
+  "_captured_at": "2026-08-20T08:24:59Z",
+  "_captured_run_id": "r_622d00b1bf874edaa20ee53666297e95",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Wrote nikeDataset (20 rows, 20 columns).",
+    "NOTE: Wrote nikeDatasetEdited (20 rows, 20 columns).",
+    "NOTE: PROC PRINT completed: 20 observations printed, 20 variables",
+    "NOTE: PROC CONTENTS completed: 20 observations, 20 variables",
+    "NOTE: Wrote row_count (1 rows, 21 columns)."
+  ],
+  "log_does_not_contain": ["ERROR:", "[JENNER-ERROR"],
+  "diagnostics": {"parse_warnings": [], "runtime_warnings": []}
+}

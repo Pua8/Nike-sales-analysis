@@ -1,0 +1,70 @@
+NOTE: Option OBS changed to 100.
+NOTE: DATA nikeDatasetEdited
+
+NOTE: Processing inline DATALINES (20 lines)
+
+NOTE: Read 20 rows from DATALINES.
+NOTE: Wrote nikeDatasetEdited (20 rows, 7 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA nikeDatasetCleaned
+
+
+NOTE: Read 14 rows from nikeDatasetEdited.
+NOTE: Wrote nikeDatasetCleaned (14 rows, 7 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA nikeDatasetCleaned
+
+
+NOTE: Read 14 rows from nikeDatasetCleaned.
+NOTE: Wrote nikeDatasetCleaned (14 rows, 7 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA nikeDatasetCleaned
+
+
+NOTE: Read 13 rows from nikeDatasetCleaned.
+NOTE: Wrote nikeDatasetCleaned (13 rows, 7 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA nikeDatasetCleaned
+
+
+NOTE: Read 13 rows from nikeDatasetCleaned.
+NOTE: Wrote nikeDatasetCleaned (13 rows, 7 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA nikeDatasetCleaned
+
+
+NOTE: Read 13 rows from nikeDatasetCleaned.
+NOTE: Wrote nikeDatasetCleaned (13 rows, 7 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA nikeDatasetCleaned
+
+
+NOTE: Read 13 rows from nikeDatasetCleaned.
+NOTE: Wrote nikeDatasetCleaned (13 rows, 7 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA nikeDatasetCleaned
+
+
+NOTE: Read 13 rows from nikeDatasetCleaned.
+NOTE: Wrote nikeDatasetCleaned (13 rows, 7 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: Option TITLE changed to Nike Dataset Cleaned.
+NOTE: PROC PRINT data=nikeDatasetCleaned
+
+NOTE: PROC PRINT completed: 13 observations printed, 7 variables

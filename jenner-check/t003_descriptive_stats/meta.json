@@ -1,0 +1,7 @@
+{
+  "bundle": "t003_descriptive_stats",
+  "source_file": "assg_completed.sas",
+  "source_blob_sha": "fe9627015e70042d4751ff7a34c56f5332f66a3e",
+  "source_commit": "b63e23e11aa1729b73b27165d4eb1b54b01be69b",
+  "notes": "Adapted from lines 376-425: PROC MEANS (mean/median/mode/std) on customer_rating_numeric, PROC FREQ frequency distribution, and PROC MEANS broken out by arrival_days_int, customer_age_int and GenderCode via CLASS/OUTPUT. Seed data mirrors the numeric columns the author's pipeline produces just before this stage (customer_rating_numeric, arrival_days_int, customer_age_int, GenderCode, free_gift_bool, discount_bool)."
+}

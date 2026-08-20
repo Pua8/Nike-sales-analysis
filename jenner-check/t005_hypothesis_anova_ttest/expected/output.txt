@@ -1,0 +1,46 @@
+
+                                           The ANOVA Procedure                                           
+                                         Class Level Information                                         
+
+Class                Levels  Values                                                                      
+-----------------  --------  ----------------------------------------------------------------------------
+customer_feedback         5  good_delivery item_defect love_the_discount love_the_free_gift slow_delivery
+
+Number of Observations Read        20
+Number of Observations Used        20
+
+Dependent Variable: customer_satisfaction
+
+Source                  DF  Sum of Squares     Mean Square    F Value     Pr > F
+--------------------------------------------------------------------------------
+customer_feedback        4          2.5833          0.6458       4.37     0.0153
+Error                   15          2.2167          0.1478          .          .
+Corrected Total         19          4.8000                          .          .
+
+R-Square: 0.5382  Root MSE: 0.3844  Mean: 0.6000
+
+
+                                                  The MEANS Procedure
+
+ Variable                        Mean
+ ------------------------------------
+ customer_satisfaction      0.1428571
+ ------------------------------------
+
+                   The TTEST Procedure                    
+             Variable:  customer_satisfaction             
+
+       N      Mean   Std Dev   Std Err   Minimum   Maximum
+--------  --------  --------  --------  --------  --------
+      13    0.8462    0.3755    0.1042    0.0000    1.0000
+
+Lower CL Mean      Mean  Upper CL Mean  Lower CL Std Dev   Std Dev  Upper CL Std Dev
+-------------  --------  -------------  ----------------  --------  ----------------
+       0.6192    0.8462         1.0731            0.2693    0.3755            0.6199
+
+       H0: Mean = 0.0       
+
+      DF   t Value  Pr > |t|
+--------  --------  --------
+      12      8.12    <.0001
+
