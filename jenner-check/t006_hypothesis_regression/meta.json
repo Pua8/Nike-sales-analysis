@@ -1,0 +1,7 @@
+{
+  "bundle": "t006_hypothesis_regression",
+  "source_file": "assg_completed.sas",
+  "source_blob_sha": "fe9627015e70042d4751ff7a34c56f5332f66a3e",
+  "source_commit": "b63e23e11aa1729b73b27165d4eb1b54b01be69b",
+  "notes": "Adapted from lines 580-611 (Hypothesis 2): PROC REG of customer_satisfaction on arrival_days_int, the is_slow_arrival recode (the author's own > 14 cutoff), and the fast-arrival PROC TTEST against h0=0.3. Seed data is a 20-row synthetic sample of (arrival_days_int, customer_satisfaction) pairs."
+}

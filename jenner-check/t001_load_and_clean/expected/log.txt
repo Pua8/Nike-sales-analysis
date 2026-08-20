@@ -1,0 +1,36 @@
+NOTE: Option OBS changed to 100.
+NOTE: DATA nikeDataset
+
+NOTE: Processing inline DATALINES (20 lines)
+
+NOTE: Read 20 rows from DATALINES.
+NOTE: Wrote nikeDataset (20 rows, 20 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA nikeDatasetEdited
+
+
+NOTE: Read 20 rows from nikeDataset.
+NOTE: Wrote nikeDatasetEdited (20 rows, 20 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC PRINT data=nikeDatasetEdited
+
+NOTE: PROC PRINT completed: 20 observations printed, 20 variables
+NOTE: PROC CONTENTS data=nikeDatasetEdited
+
+NOTE: PROC CONTENTS completed: 20 observations, 20 variables
+NOTE: Option TITLE changed to Count of rows with null values.
+NOTE: DATA row_count
+
+
+NOTE: Read 20 rows from nikeDatasetEdited.
+NOTE: Wrote row_count (1 rows, 21 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC PRINT data=row_count
+
+NOTE: PROC PRINT completed: 1 observations printed, 1 variables

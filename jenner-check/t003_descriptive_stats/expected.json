@@ -1,0 +1,14 @@
+{
+  "_captured_at": "2026-08-20T08:24:59Z",
+  "_captured_run_id": "r_16fcaaaed13743fca802fed5ee513fdc",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Wrote nikeDatasetCleaned (20 rows, 6 columns).",
+    "NOTE: PROC MEANS statement used.",
+    "NOTE: Output dataset freq_output has 3 observations and 3 variables.",
+    "NOTE: PROC PRINT completed: 3 observations printed, 3 variables"
+  ],
+  "log_does_not_contain": ["ERROR:", "[JENNER-ERROR"],
+  "diagnostics": {"parse_warnings": [], "runtime_warnings": []}
+}

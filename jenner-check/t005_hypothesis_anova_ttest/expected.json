@@ -1,0 +1,15 @@
+{
+  "_captured_at": "2026-08-20T08:24:59Z",
+  "_captured_run_id": "r_1454b7578f3045c18ccf277428ff529f",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Wrote nikeDatasetCleaned (20 rows, 2 columns).",
+    "NOTE: PROC ANOVA: 20 observations, 1 effects analyzed",
+    "NOTE: PROC MEANS statement used.",
+    "NOTE: Table positive_feedback created.",
+    "NOTE: PROC TTEST ODS Graphics generated."
+  ],
+  "log_does_not_contain": ["ERROR:", "[JENNER-ERROR"],
+  "diagnostics": {"parse_warnings": [], "runtime_warnings": []}
+}

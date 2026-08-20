@@ -1,0 +1,64 @@
+
+  Obs  Customer_ID  Purchase_ID  purchase_date  arrival_days  retail_online  free_gift        product_purchased           material  weight_gram  ori_price  discount  discount_percentage  discounted_price      shoe_category  shoe_size  customer_age     customer_gender  customer_location  customer_rating   customer_feedback
+    1  CUST694      PO528        3/10/2021      17            Online         YES        NIKE SB Dunk Low         Leather,Textile    230          508        YES       20                   406.4             Skateboarding      9.5        34            Male                Kota Kinabalu      5                love the free gift
+    2  CUST409      PO966        29/1/2022      5             Online         NO         NIKE Air Zoom Pegasus    Synthetic,Textile  250          310        NO        -                    -                 Running            8.5        40            Female              Johor Bahru        5                good delivery
+    3  CUST193      PO518        24/2/2020      6             Online         YES        NIKE Air Force 1         Leather,Synthetic  240          413        NO        -                    -                 Basketball         8.5        40            Female              Shah Alam          -                -
+    4  CUST365      PO348        8/11/2020      15            Online         NO         NIKE Air Jordan 1        Leather,Synthetic  280          588        YES       50                   294               Basketball         10         43            Female              Kuching            -                -
+    5  CUST130      PO495        23/10/2020     17            Online         NO         NIKE Air Zoom Structure  Synthetic,Textile  230          291        NO        -                    -                                    6.5        28            Male                Kuching            -                -
+    6  CUST897      PO014        18/1/2020      5             Online         NO         NIKE Air Zoom Structure  Synthetic,Textile  230          291        YES       45                   160.05            Running            9.5        43            Male                Kuala Lumpur       -                -
+    7  CUST612      PO032        31/5/2020      10            Online         YES        NIKE Air Force 1         Leather,Synthetic  240          413        NO        -                    -                 Basketball         7          35            Male                Alor Setar         5                love the free gift
+    8  CUST748      PO411        13/12/2020     14            Online         YES        NIKE Air Max 2090        Synthetic,Textile  250          288        NO        -                    -                 Lifestyle/Fashion  8.5        34            Female              Kuching            5                love the free gift
+    9  CUST153      PO948        12/4/2020      10            Online         YES        NIKE Free RN 5.0         Synthetic,Textile  200          207        YES       50                   103.5             Running            11         44            Female              Alor Setar         5                love the discount
+   10  CUST193      PO104        14/6/2022      7             Online         NO         NIKE Revolution 5        Leather,Textile    220          366        YES       25                   274.5             Running            10         33            Female              Petaling Jaya      5                love the discount
+   11  CUST459      PO045        12/6/2022      5             Online         YES        NIKE Air Max 2090        Synthetic,Textile  250          288        YES       20                   230.4                                7.5        29            Male                Shah Alam          5                love the discount
+   12  CUST896      PO653        9/10/2022      7             Online         NO         NIKE Air Max 97          Synthetic,Textile  260          531        NO        -                    -                 Lifestyle/Fashion  8          31            Male                Kuantan            2                item defect
+   13  CUST298      PO346        22/4/2022      7             Online         YES        NIKE Air Max 2090        Synthetic,Textile  250          288        NO        -                    -                 Lifestyle/Fashion  6          27            Male                Penang             -                -
+   14  CUST704      PO898        2/10/2022      7             Online         YES        NIKE Air Max 90          Synthetic,Textile  270          509        NO        -                    -                 Lifestyle/Fashion  6.5        28            Male                Johor Bahru        5                good delivery
+   15  CUST038      PO147        3/3/2022       15            Online         NO         NIKE Free RN 5.0         Synthetic,Textile  200          207        YES       50                   103.5             Running            10         33            Female              Kuching            -                -
+   16  CUST355      PO771        7/1/2021       20            Online         YES        NIKE Air Force 1         Leather,Synthetic  240          413        NO        -                    -                 Basketball         7.5        38            Male                Subang Jaya        2                slow delivery
+   17  CUST483      PO525        30/1/2020      7             Online         NO         NIKE Free RN 5.0         Synthetic,Textile  200          207        NO        -                    -                 Running            8.5        39            Female              Shah Alam          1                item defect
+   18  CUST839      PO415        2/1/2020       5             Online         NO         NIKE Air Force 1         Leather,Synthetic  240          413        NO        -                    -                 Basketball         9.5        42            Male                George Town        2                item defect
+   19  CUST301      PO711        24/2/2021      6             Online         NO         NIKE Air Jordan 1        Leather,Synthetic  280          588        NO        -                    -                 Basketball         7.5        33            Female              Johor Bahru        1                item defect
+   20  CUST384      PO541        6/7/2020       15            Online         YES        NIKE Air Max 90          Synthetic,Textile  270          509        YES       50                   254.5             Lifestyle/Fashion  8          34            rather_not_to_tell  Kota Kinabalu      5                love the discount
+
+
+PROC CONTENTS
+-------------------------------------------------------------------------------
+
+Data Set Name: nikeDatasetEdited
+Observations:  20
+Variables:     20
+
+Variables (in alphabetical order):
+
+  #  Variable             Type    Len  Format  Label
+---  -------------------  ----  -----  ------  -----
+  1  arrival_days         Char     10          
+  2  customer_age         Char     20          
+  3  customer_feedback    Char    150          
+  4  customer_gender      Char     20          
+  5  Customer_ID          Char      7          
+  6  customer_location    Char     40          
+  7  customer_rating      Char      3          
+  8  discount             Char      5          
+  9  discounted_price     Char     25          
+ 10  discount_percentage  Char     25          
+ 11  free_gift            Char      5          
+ 12  material             Char     35          
+ 13  ori_price            Char      5          
+ 14  product_purchased    Char     35          
+ 15  purchase_date        Char     10          
+ 16  Purchase_ID          Char      5          
+ 17  retail_online        Char     10          
+ 18  shoe_category        Char     25          
+ 19  shoe_size            Char     20          
+ 20  weight_gram          Char      5          
+
+-------------------------------------------------------------------------------
+
+                                             Count of rows with null values
+
+
+count
+   15
+

@@ -1,0 +1,33 @@
+NOTE: Option OBS changed to 100.
+NOTE: DATA nikeDatasetCleaned
+
+NOTE: Processing inline DATALINES (20 lines)
+
+NOTE: Read 20 rows from DATALINES.
+NOTE: Wrote nikeDatasetCleaned (20 rows, 2 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC ANOVA data=nikeDatasetCleaned
+
+NOTE: ODS plot written: anova_boxplot.spec.json
+NOTE: ODS plot written: anova_diagnostics.spec.json
+NOTE: PROC ANOVA: 20 observations, 1 effects analyzed
+NOTE: DATA nikeDatasetCleaned
+
+
+NOTE: Read 20 rows from nikeDatasetCleaned.
+NOTE: Wrote nikeDatasetCleaned (20 rows, 3 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC MEANS
+NOTE: PROC MEANS statement used.
+NOTE: PROC SQL 
+
+NOTE: Table positive_feedback created.
+NOTE: PROC SQL statement used.
+NOTE: PROC TTEST data=positive_feedback
+
+NOTE: PROC TTEST ODS Graphics generated.
+NOTE: PROC TTEST statement used.
